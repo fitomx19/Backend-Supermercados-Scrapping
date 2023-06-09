@@ -97,7 +97,7 @@ router.post('/datos/busqueda/ultima-busqueda', async (req, res) => {
 
   //obtener el json de la busqueda
   const temp = req.body
-  console.log(temp)
+  
    //extraer el id del producto
   const _id = temp._id
   //buscar el producto por id
